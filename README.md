@@ -1,6 +1,6 @@
 # odd-ratio
 Calculate the odd ratio and create a plot
-`
+
 OR.fx = function(exposed, outcome){ #Funcion que retorna el Odss Rate
         primera_t = table(exposed, outcome)
         barplot(primera_t, beside = T, legend = T)
@@ -11,4 +11,4 @@ OR.fx = function(exposed, outcome){ #Funcion que retorna el Odss Rate
     OR_b = (primera_t[2,1]*primera_t[1,2])/(primera_t[1,1] * primera_t[2,2])
     return(list(tabla = primera_t, OR1 = OR_a, OR2 = OR_b))
 }
-`
+
