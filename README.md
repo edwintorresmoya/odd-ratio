@@ -10,5 +10,6 @@ OR.fx = function(exposed, outcome){ #Funcion que retorna el Odss Rate
     OR_a = (primera_t[1,1] * primera_t[2,2])/(primera_t[2,1]*primera_t[1,2])
     OR_b = (primera_t[2,1]*primera_t[1,2])/(primera_t[1,1] * primera_t[2,2])
     return(list(tabla = primera_t, OR1 = OR_a, OR2 = OR_b))
+    
+    "razon de exposed y no exposed es OR_a veces mayor Outcome 1, que outcome 2"
 }
-
