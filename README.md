@@ -1,6 +1,6 @@
 # odd-ratio
 Calculate the odd ratio and create a plot
-"
+
  OR.fx = function(exposed, outcome){ #Funcion que retorna el Odss Rate
     primera_t = table(exposed, outcome)
     barplot(primera_t, beside = T, legend = T)
@@ -14,4 +14,4 @@ Calculate the odd ratio and create a plot
     "Exposed Variable independiente, outcome variable dependiente"
     "razon de exposed y no exposed es OR_a veces mayor Outcome 1, que outcome 2"
 }
-"
+
